@@ -191,7 +191,7 @@ body {
 
 .bg__second {
 
-  border-bottom: 3px solid #f23b3b;
+  border-bottom: 3px solid #075B58;
 
   height: 45vh;
 
@@ -315,7 +315,7 @@ body {
 
 .nav a:hover {
 
-  color: #f23b3b!important;
+  color: #075B58!important;
 
     -webkit-transition: all 0.3s ease 0s;
 
@@ -347,7 +347,7 @@ body {
 
   display: inline-block;
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   padding: 6px 12px;
 
@@ -399,7 +399,7 @@ body {
 
 .nav .sub-menu li:first-child {
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid #075B58;
 
 }
 
@@ -517,9 +517,9 @@ body {
 
 .stroked-button a:hover {
 
-  color: #f23b3b;
+  color: #075B58;
 
-  border-color: #f23b3b;
+  border-color: #075B58;
 
     -webkit-transition: all 0.3s ease 0s;
 
@@ -571,9 +571,9 @@ body {
 
 .arrow i:hover {
 
-  color: #f23b3b;
+  color: #075B58;
 
-  border-color: #f23b3b;
+  border-color: #075B58;
 
   -webkit-transition: all 0.3s ease 0s;
 
@@ -621,7 +621,7 @@ body {
 
   color: #fff;
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   cursor: pointer;
 
@@ -641,7 +641,7 @@ body {
 
   font-size: 26px;
 
-  color: #f23b3b;
+  color: #075B58;
 
   border: 1px solid #e7e7e7;
 
@@ -705,7 +705,7 @@ body {
 
   font-size: 22px;
 
-  color: #f23b3b;
+  color: #075B58;
 
   width: 30px;
 
@@ -717,7 +717,7 @@ body {
 
   text-align: center;
 
-  border: 1px solid #f23b3b;
+  border: 1px solid #075B58;
 
   border-radius: 50%;
 
@@ -727,9 +727,9 @@ body {
 
 .service-arrow i:hover {
 
-  color: #f23b3b;
+  color: #075B58;
 
-  border-color: #f23b3b;
+  border-color: #075B58;
 
   -webkit-transition: all 0.3s ease 0s;
 
@@ -763,7 +763,7 @@ body {
 
   background-color: #fff;
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid #075B58;
 
 }
 
@@ -835,7 +835,7 @@ body {
 
   color: #fff!important;
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
 }
 
@@ -855,7 +855,7 @@ body {
 
   background-color: #fff;
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid #075B58;
 
 }
 
@@ -927,7 +927,7 @@ body {
 
   color: #fff!important;
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
 }
 
@@ -1001,9 +1001,9 @@ body {
 
 .fourth-arrow i:hover {
 
-  color: #f23b3b;
+  color: #075B58;
 
-  border-color: #f23b3b;
+  border-color: #075B58;
 
   -webkit-transition: all 0.3s ease 0s;
 
@@ -1049,7 +1049,7 @@ body {
 
   padding-bottom: 15px;
 
-  border-bottom: 1px solid #f23b3b;
+  border-bottom: 1px solid #075B58;
 
 
 
@@ -1127,7 +1127,7 @@ body {
 
   color: #fff;
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   border: 0px;
 
@@ -1149,7 +1149,7 @@ body {
 
 footer {
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   text-align: center;
 
@@ -1171,7 +1171,7 @@ footer {
 
 .social-icons a {
 
-  color: #f23b3b;
+  color: #075B58;
 
   margin: 0 5px;
 
@@ -1195,7 +1195,7 @@ footer {
 
 .social-icons a:hover {
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   color: #fff;
 
@@ -1249,7 +1249,7 @@ footer {
 
   font-size: 22px;
 
-  color: #f23b3b;
+  color: #075B58;
 
   width: 30px;
 
@@ -1305,7 +1305,7 @@ footer {
 
   width: 100%;
 
-  border-bottom: 3px solid #f23b3b;
+  border-bottom: 3px solid #075B58;
 
   background-repeat: no-repeat;
 
@@ -1335,7 +1335,7 @@ footer {
 
   text-transform: uppercase;
 
-  border-bottom: 1px solid #f23b3b;
+  border-bottom: 1px solid #075B58;
 
   padding-bottom: 15px;
 
@@ -1367,7 +1367,7 @@ footer {
 
   overflow: hidden;
 
-  border-bottom: 3px solid #f23b3b;
+  border-bottom: 3px solid #075B58;
 
 }
 
@@ -1415,7 +1415,7 @@ footer {
 
   font-weight: 600;
 
-  border-left: 3px solid #f23b3b;
+  border-left: 3px solid #075B58;
 
   margin-left: 30px;
 
@@ -1491,7 +1491,7 @@ footer {
 
 .widget-social a:hover {
 
-  background-color: #f23b3b;
+  background-color: #075B58;
 
   color: #fff;
 
@@ -1539,7 +1539,7 @@ footer {
 
 .posts a:hover {
 
-  color: #f23b3b;
+  color: #075B58;
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1627,7 +1627,7 @@ footer {
 
 .third-widget li a:hover p {
 
-  color: #f23b3b;
+  color: #075B58;
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1639,7 +1639,7 @@ footer {
 
 .third-widget li a:hover span {
 
-  color: #f23b3b;
+  color: #075B58;
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1863,15 +1863,15 @@ footer {
 
   .navbar-inverse .navbar-toggle {
 
-    border-color: #f23b3b!important;
+    border-color: #075B58!important;
 
-    background-color: #f23b3b;
+    background-color: #075B58;
 
   }
 
   .navbar-inverse .navbar-toggle:hover {
 
-    background-color: #f23b3b!important;
+    background-color: #075B58!important;
 
   }
 
