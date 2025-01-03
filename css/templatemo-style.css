@@ -169,6 +169,7 @@ body {
     ../images/landing-page-1.jpg
 
   );
+  filter: blur(4px);
 
 }
 
