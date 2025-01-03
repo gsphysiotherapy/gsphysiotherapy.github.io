@@ -170,6 +170,8 @@ body {
 
   );
 
+  filter: blur(4px);
+
 }
 
 .bg__first .container {
