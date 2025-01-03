@@ -163,16 +163,24 @@ body {
 
 
 .bg__first {
-
-  background-image: url(
-
-    ../images/landing-page-1.jpg
-
-  );
-
-  filter: blur(4px);
-
+  position: relative;
+  overflow: hidden;
 }
+
+.bg__first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/landing-page-1.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
 
 .bg__first .container {
 
