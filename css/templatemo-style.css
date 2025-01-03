@@ -161,7 +161,6 @@ body {
 }
 
 
-
 .bg__first {
   position: relative;
   overflow: hidden;
@@ -181,13 +180,11 @@ body {
   z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
-
 .bg__first .container {
-
+  position: relative;
+  z-index: 1; /* Ensure the content is above the pseudo-element */
   height: 75.5vh;
-
   min-height: 440px;
-
 }
 
 
