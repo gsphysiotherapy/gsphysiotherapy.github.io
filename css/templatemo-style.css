@@ -169,7 +169,6 @@ body {
     ../images/landing-page-1.jpg
 
   );
-  filter: blur(4px);
 
 }
 
@@ -178,6 +177,8 @@ body {
   height: 75.5vh;
 
   min-height: 440px;
+
+  filter: blur(4px);
 
 }
 
