@@ -176,7 +176,7 @@ body {
   background-image: url('../images/landing-page-1.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
+  filter: blur(5px); brightness(0.5);
   z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
