@@ -28,11 +28,6 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Dewi
-  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
@@ -41,24 +36,30 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="/" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/gsslogo_plain.png" alt="" width="40" height="900"> -->
-        <h1 class="sitename" style="font-size: 24px">Grounded Strength Solutions</h1>
+        <!-- <h1 class="sitename" style="font-size: 24px">Grounded Strength Solutions</h1> -->
+        <img src="assets/img/long-white-logo.jpg" alt="Grounded Strength Solutions" style="max-height: 55px;">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#services">Physiotherapy</a></li>
+              </li>
+              <li><a href="#services-2">Powerlifting</a></li>
+            </ul>
           </li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="https://alexander-fomin.au4.cliniko.com/bookings?fbclid=PAZXh0bgNhZW0CMTEAAaaHHx4GIbQilU7ewvS_7HAjAxRqswKUgthDF2YTmt1LBnHJ8JcPuFGtfcQ_aem_j8m5s9WSCpxq5z7JqG623g#service">Bookings</a>
+      <a class="cta-btn" href="https://alexander-fomin.au4.cliniko.com/bookings?fbclid=PAZXh0bgNhZW0CMTEAAaaHHx4GIbQilU7ewvS_7HAjAxRqswKUgthDF2YTmt1LBnHJ8JcPuFGtfcQ_aem_j8m5s9WSCpxq5z7JqG623g#service" style="white-space: nowrap;">Book NOW</a>
 
     </div>
   </header>
@@ -66,7 +67,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="home" class="hero section dark-background">
 
       <img src="assets/img/landing-page-1.jpg" alt="" data-aos="fade-in">
       <div class="container d-flex flex-column align-items-center">
@@ -129,7 +130,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="546" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Happy Patients</p>
               </div>
             </div>
@@ -149,7 +150,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-file-medical color-green flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="1800" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="2105" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hours Of Treatment</p>
               </div>
             </div>
@@ -159,7 +160,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Powerlifters Coached</p>
               </div>
             </div>
@@ -193,7 +194,7 @@
                 <div class="icon">
                   <i class="bi bi-activity"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a class="stretched-link">
                   <h3>Barbell Sports Physiotherapy</h3>
                 </a>
                 <p>Expert care for powerlifters and strength athletes, targeting barbell movement patterns and sport-specific injuries</p>
@@ -210,7 +211,7 @@
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a class="stretched-link">
                   <h3>Treatment & Diagnosis</h3>
                 </a>
                 <p>Comprehensive assessment and hands-on treatment using manual therapy and dry needling techniques to provide effective pain relief</p>
@@ -227,7 +228,7 @@
                 <div class="icon">
                   <i class="bi bi-easel"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                <a class="stretched-link">
                   <h3>Individualised Rehab Plans</h3>
                 </a>
                 <p>Customised rehabilitation programs tailored to your specific goals and performance needs to rebuild strength and restore optimal movement patterns</p>
@@ -264,7 +265,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-person-square icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Individualised Programs</a></h4>
+                <h4 class="title"><a class="stretched-link">Individualised Programs</a></h4>
                 <p class="description">Custom training programs designed specifically for your goals, experience levels and competition timeline </p>
               </div>
             </div>
@@ -274,7 +275,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-clock icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">24 Hour Response Times</a></h4>
+                <h4 class="title"><a class="stretched-link">24 Hour Response Times</a></h4>
                 <p class="description">Fast communication and support with guaranteed responses to questions and check-ins within 24 hours</p>
               </div>
             </div>
@@ -284,7 +285,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-phone-vibrate icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">End of Block Calls</a></h4>
+                <h4 class="title"><a class="stretched-link">End of Block Calls</a></h4>
                 <p class="description">One-on-one video calls at the completion of each training block to review progress and plan ahead</p>
               </div>
             </div>
@@ -294,7 +295,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-trophy-fill icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Game Day Handling</a></h4>
+                <h4 class="title"><a class="stretched-link">Game Day Handling</a></h4>
                 <p class="description">Expert competition handling and coaching support to maximise your performance on meet day</p>
               </div>
             </div>
@@ -304,7 +305,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-clipboard-heart icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Complimentary Physio Consult</a></h4>
+                <h4 class="title"><a class="stretched-link">Complimentary Physio Consult</a></h4>
                 <p class="description">Free inital physiotherapy consultation included, with discounted rates for ongoing treatment throughout during your training journey </p>
               </div>
             </div>
@@ -314,7 +315,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-eye icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Technique Analysis</a></h4>
+                <h4 class="title"><a class="stretched-link">Technique Analysis</a></h4>
                 <p class="description">Detailed video analysis of your compound and accessory lift with personalised feedback to improve form and efficiency</p>
               </div>
             </div>
@@ -354,14 +355,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Mandy Drew</h3>
+                <h4>Physio Patient</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Alex is a great physio and I have seen him for a range of issues from sports injuries to head injuries and is extremely knowledgeable in all fields. Highly recommend</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -488,23 +489,23 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSc-ChXPEBbeAcQDFAmFvN7H9Easl82xqdm7i9qFBZVLgrUmUA/formResponse?" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="entry.1433193010" id="entry.1433193010" class="form-control" placeholder="Your Name" required="">
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="entry.1215204664" id="entry.1215204664" placeholder="Your Email" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" class="form-control" name="entry.2069836006" id="entry.2069836006" placeholder="Subject" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                  <textarea class="form-control" name="entry.1035197396" id="entry.1035197396" rows="4" placeholder="Message" required=""></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -532,7 +533,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             <span class="sitename">Grounded Strength Solutions</span>
           </a>
           <div class="footer-contact pt-3">
@@ -542,10 +543,8 @@
             <p><strong>Email:</strong> <span>alex@gsphysio.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://share.google/Ear53pswucmGsAslV"><i class="bi bi-google"></i></a>
+            <a href="https://www.instagram.com/grounded.strength.solutions/?hl=en"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
       </div>
@@ -578,6 +577,40 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+      const loading = contactForm.querySelector('.loading');
+      const errorMessage = contactForm.querySelector('.error-message');
+      const sentMessage = contactForm.querySelector('.sent-message');
+
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        loading.style.display = 'block';
+        errorMessage.style.display = 'none';
+        sentMessage.style.display = 'none';
+
+        const formData = new FormData(contactForm);
+        const action = contactForm.getAttribute('action');
+
+        fetch(action, {
+          method: 'POST',
+          body: formData,
+          mode: 'no-cors' // Important: This prevents CORS errors
+        }).then(() => {
+          loading.style.display = 'none';
+          sentMessage.style.display = 'block';
+          contactForm.reset();
+        }).catch(error => {
+          loading.style.display = 'none';
+          errorMessage.innerHTML = 'An error occurred. Please try again later.';
+          errorMessage.style.display = 'block';
+        });
+      });
+    }
+  </script>
 
 </body>
 
