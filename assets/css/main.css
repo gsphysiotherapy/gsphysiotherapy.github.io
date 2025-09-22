@@ -1410,13 +1410,14 @@ section,
   display: inline-block;
   right: -5px;
   position: relative;
-  top: 10px;
   transform: scale(-1, -1);
+  vertical-align: -10px;
 }
 
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  line-height: 1.6;
 }
 
 .testimonials .swiper-wrapper {
