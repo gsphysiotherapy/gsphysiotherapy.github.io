@@ -1357,6 +1357,7 @@ section,
 
 .testimonials .testimonial-item {
   text-align: center;
+  padding: 30px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1364,6 +1365,11 @@ section,
   border-radius: 50%;
   border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
   margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+.testimonials .testimonial-item a:hover .testimonial-img {
+  transform: scale(1.1);
 }
 
 .testimonials .testimonial-item h3 {
@@ -1404,13 +1410,14 @@ section,
   display: inline-block;
   right: -5px;
   position: relative;
-  top: 10px;
   transform: scale(-1, -1);
+  vertical-align: -10px;
 }
 
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  line-height: 1.6;
 }
 
 .testimonials .swiper-wrapper {
