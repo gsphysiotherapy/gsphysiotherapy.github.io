@@ -959,7 +959,7 @@ section,
 .hero h2.animated-hero-text {
   color: var(--default-color);
   font-weight: 800;
-  background: linear-gradient(90deg, var(--accent-color), var(--contrast-color), var(--accent-color));
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent-color), #ffffff 25%), var(--contrast-color), color-mix(in srgb, var(--accent-color), #ffffff 25%));
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
