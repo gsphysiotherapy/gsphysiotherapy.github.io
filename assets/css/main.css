@@ -972,18 +972,22 @@ section,
 .hero .btn-get-started {
   background: var(--accent-color);
   color: var(--contrast-color);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.3s;
+  padding: 12px 35px;
+  border-radius: 50px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   text-transform: uppercase;
+  animation: hero-btn-pulse 2.5s infinite;
 }
 
 .hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, var(--accent-color), #ffffff 15%);
+  animation: none;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-watch-video {
@@ -1017,6 +1021,22 @@ section,
 
   .hero p {
     font-size: 18px;
+  }
+}
+@keyframes hero-btn-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-color), transparent 30%);
+  }
+
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 20px color-mix(in srgb, var(--accent-color), transparent 100%);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-color), transparent 100%);
   }
 }
 
