@@ -516,23 +516,28 @@ h6 {
     position: static;
     display: none;
     z-index: 99;
-    padding: 10px 0;
-    margin: 10px 20px;
-    background-color: var(--nav-dropdown-background-color);
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
     /* Reset properties inherited from .navmenu ul for dropdown functionality */
     transform: none;
     visibility: visible;
-    transition: none;
     box-shadow: none;
+    transition: all 0.5s ease-in-out;
   }
 
   .navmenu .dropdown ul ul {
-    background-color: rgba(33, 37, 41, 0.1);
+    margin: 0;
+    background-color: rgba(33, 37, 41, 0.05);
   }
 
   .navmenu .dropdown>.dropdown-active {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px 20px;
+    width: calc(100% - 40px);
   }
 
   .mobile-nav-active {
